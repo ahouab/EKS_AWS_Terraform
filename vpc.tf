@@ -8,7 +8,7 @@ locals {
 module vpc {
     source = "terraform-aws-modules/vpc/aws"
 
-    name = "Piyush-EKS-VPC"
+    name = "Aliouche-EKS-VPC"
     cidr = "10.0.0.0/16"
 
     azs = data.aws_availability_zones.available.names
